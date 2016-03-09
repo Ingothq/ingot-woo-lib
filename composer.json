@@ -1,0 +1,21 @@
+{
+  "name": "ingot/ingot-woo-lib",
+  "description": "Composer lib to add Woo support for Ingot",
+  "keywords": [
+    "wordpress"
+  ],
+  "minimum-stability": "dev",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Josh Pollock",
+      "homepage": "http://JoshPress.net",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ingot\\addon\\woo": "src"
+    }
+  }
+}
